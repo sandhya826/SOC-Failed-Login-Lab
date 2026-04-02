@@ -24,3 +24,13 @@ This project demonstrates a mini SOC lab setup where failed login attempts on a 
 SecurityEvent
 | where EventID == 4625
 | where TimeGenerated > ago(1h)
+
+
+## Skills Demonstrated
+- SIEM monitoring
+- Microsoft Sentinel configuration
+- Log analysis
+- KQL queries
+- Incident detection
+
+

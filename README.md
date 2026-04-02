@@ -1,7 +1,4 @@
-# SOC-Failed-Login-Lab
-Microsoft Sentinel SOC lab to detect failed login events using KQL queries.
-
-### SOC Lab: Failed Login Detection using Microsoft Sentinel
+## SOC Lab: Failed Login Detection using Microsoft Sentinel
 
 ## Project Overview
 This project demonstrates a mini SOC lab setup where failed login attempts on a Windows VM are collected, monitored, and detected using **Microsoft Sentinel**.
@@ -20,13 +17,14 @@ This project demonstrates a mini SOC lab setup where failed login attempts on a 
 5. Validate the detection workflow.
 
 
-  
 ## KQL Query Example
 ```kusto
 SecurityEvent
 | where EventID == 4625
 | where TimeGenerated > ago(1h)
 ```` 
+
+## Screenshots
 
 
 ## Skills Demonstrated

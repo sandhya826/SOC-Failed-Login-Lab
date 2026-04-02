@@ -25,7 +25,7 @@ SecurityEvent
 ```` 
 
 ## Screenshots
-
+![Logs Query](Screenshots/LogsQuery.png)
 
 ## Skills Demonstrated
 - SIEM monitoring

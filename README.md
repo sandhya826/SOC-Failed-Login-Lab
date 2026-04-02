@@ -19,11 +19,14 @@ This project demonstrates a mini SOC lab setup where failed login attempts on a 
 4. Create a **custom analytics rule** in Sentinel to generate incidents.
 5. Validate the detection workflow.
 
+
+  
 ## KQL Query Example
 ```kusto
 SecurityEvent
 | where EventID == 4625
 | where TimeGenerated > ago(1h)
+```` 
 
 
 ## Skills Demonstrated
@@ -32,5 +35,7 @@ SecurityEvent
 - Log analysis
 - KQL queries
 - Incident detection
+
+
 
 
